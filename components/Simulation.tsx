@@ -109,7 +109,7 @@ export const Simulation: React.FC<SimulationProps> = ({ velocity, setVelocity })
     const shipGroup = new THREE.Group();
     const loader = new GLTFLoader();
     loader.load(
-      '/model/multi_universe_space_ship_3d_model.glb',
+      './model/multi_universe_space_ship_3d_model.glb',
       (gltf) => {
         const ship = gltf.scene;
         ship.scale.set(0.8, 0.8, 0.8);
