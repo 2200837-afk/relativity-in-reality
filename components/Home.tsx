@@ -15,7 +15,7 @@ const PARADOXES = [
     desc: "If you travel at light speed, time slows down for you. Return to Earth to find your twin is now an old man while you haven't aged a day.",
     icon: <Users size={48} className="text-purple-400" />,
     color: "from-purple-900/50 to-blue-900/50",
-    bg: "/home_image/twin.png"
+    bg: "./home_image/twin.png"
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const PARADOXES = [
     desc: "A train is longer than a tunnel. But if it moves fast enough, it fits inside. Or does the tunnel shrink? It depends on who you ask.",
     icon: <TrainFront size={48} className="text-cyan-400" />,
     color: "from-cyan-900/50 to-teal-900/50",
-    bg: "/home_image/traintunnel.png"
+    bg: "./home_image/traintunnel.png"
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const PARADOXES = [
     desc: "Time is not absolute. It stretches and squeezes based on your speed. Explore the math that redefined the universe.",
     icon: <Clock size={48} className="text-pink-400" />,
     color: "from-pink-900/50 to-rose-900/50",
-    bg: "/home_image/timedilation.png"
+    bg: "./home_image/timedilation.png"
   }
 ];
 

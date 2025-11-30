@@ -74,7 +74,7 @@ export const ExpTrainTunnel: React.FC = () => {
 
     const tunnelLoader = new GLTFLoader();
     tunnelLoader.load(
-      '/model/low_poly_style_subway_tunnel_section.glb',
+      './model/low_poly_style_subway_tunnel_section.glb',
       (gltf) => {
         const tunnelModel = gltf.scene;
 
@@ -111,7 +111,7 @@ export const ExpTrainTunnel: React.FC = () => {
 
     const loader = new GLTFLoader();
     loader.load(
-      '/model/train_-_british_rail_class_08_rail_blue_livery.glb',
+      './model/train_-_british_rail_class_08_rail_blue_livery.glb',
       (gltf) => {
         const glbTrain = gltf.scene;
         glbTrain.rotation.y = Math.PI / 2;

@@ -324,12 +324,12 @@ const TwinFaceCard: React.FC<{idPrefix: string, label: string, color: string}> =
     // 6 Stages of Aging (Consistent Male Identity)
     // Using specific Unsplash IDs or reliable placeholders
     const STAGES = [
-        { min: 0, max: 5, img: "/twin_image/baby.jpeg", label: "Baby" },
-        { min: 6, max: 18, img: "/twin_image/child.jpeg", label: "Child" },
-        { min: 19, max: 30, img: "/twin_image/young adult.jpeg", label: "Young Adult" },
-        { min: 31, max: 65, img: "/twin_image/adult.jpeg", label: "Adult" },
-        { min: 66, max: 110, img: "/twin_image/elderly.jpeg", label: "Elderly" },
-        { min: 110, max: 9999, img: "/twin_image/grave.jpeg", label: "Deceased" }, // Grave/Dark abstract
+        { min: 0, max: 5, img: "./twin_image/baby.jpeg", label: "Baby" },
+        { min: 6, max: 18, img: "./twin_image/child.jpeg", label: "Child" },
+        { min: 19, max: 30, img: "./twin_image/young adult.jpeg", label: "Young Adult" },
+        { min: 31, max: 65, img: "./twin_image/adult.jpeg", label: "Adult" },
+        { min: 66, max: 110, img: "./twin_image/elderly.jpeg", label: "Elderly" },
+        { min: 110, max: 9999, img: "./twin_image/grave.jpeg", label: "Deceased" }, // Grave/Dark abstract
     ];
 
     useEffect(() => {

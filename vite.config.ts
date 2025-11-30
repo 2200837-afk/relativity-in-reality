@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-    //  base: '/',   // ⭐ REQUIRED FOR VERCEL DEPLOYMENT ⭐
+      base: '/relativity-in-reality/',   // ⭐ REQUIRED FOR VERCEL DEPLOYMENT ⭐
       server: {
         port: 3000,
         host: '0.0.0.0',

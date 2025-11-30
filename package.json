@@ -1,12 +1,15 @@
 {
   "name": "relativity-in-motion-interactive",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/2200837-afk/relativity-in-reality.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev-backend": "ts-node server.ts"
   },
   "dependencies": {
@@ -27,9 +30,9 @@
     "@types/express-session": "^1.18.2",
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
+    "gh-pages": "^6.3.0",
     "ts-node": "^10.9.2",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }
-
 }

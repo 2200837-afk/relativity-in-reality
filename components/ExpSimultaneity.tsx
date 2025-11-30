@@ -99,7 +99,7 @@ export const ExpSimultaneity: React.FC = () => {
       // Try loading standard GLB Train
       const loader = new GLTFLoader();
       loader.load(
-        '/model/train_-_british_rail_class_08_rail_blue_livery.glb',
+        './model/train_-_british_rail_class_08_rail_blue_livery.glb',
         (gltf) => {
           const glbTrain = gltf.scene;
           // Hide procedural parts if any were added (we won't add them now)
